@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Card, Descriptions, Image, Name, Tag, Location, StatsList, StatsItem, StatsLabel, StatsQuality} from "../Profile/Profile.styles"
+import { Card, Title, Descriptions, Image, Name, Tag, Location, StatsList, StatsItem, StatsLabel, StatsQuality} from "../Profile/Profile.styles"
 
 
 const Profile = ({ name, tag, location, avatar, stats}) => {
     return (
         <Card>
+            <Title>profile</Title> 
             <Descriptions>
                 <Image
                     src={avatar}

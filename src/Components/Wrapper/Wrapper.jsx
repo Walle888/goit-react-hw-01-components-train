@@ -16,10 +16,10 @@ const Wrapper = () => {
                 avatar={user.avatar}
                 stats={user.stats}
             />
-            <Statistics>
+            <Statistics
                 title={statisticalData.title}
                 stats={statisticalData.stats}
-</Statistics>
+/>
          </Container>
     )
 }

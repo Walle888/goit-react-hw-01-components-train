@@ -6,7 +6,7 @@ import { Card, Title, StatList, StatItem, StatLabel, StatPercentage } from "../S
 const Statistics = () => {
     return (
         <Card>
-            <Title>{statisticalData.title}</Title>
+           <Title>Upload stats</Title>
             <StatList>
                 {statisticalData.map(({ id, label, percentage }) => (
                     <StatItem key={id}>

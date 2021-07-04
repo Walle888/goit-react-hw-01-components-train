@@ -10,6 +10,17 @@ export const Card = styled.div`
     overflow: hidden;
 `;
 
+export const Title = styled.h2`
+    margin-bottom: 50px;
+    padding: 10px 0;
+    border-top: 2px solid #dcdcdc;
+    border-bottom: 2px solid #dcdcdc;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #696969;
+`;
+
 export const Descriptions = styled.div`
     text-align: center;
     padding-top: 20px;

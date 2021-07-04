@@ -10,16 +10,14 @@ export const Card = styled.section`
 `;
 
 export const Title = styled.h2`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-  height: 100px;
-  background-color: lavender;
-
-  text-transform: uppercase;
+ margin-bottom: 50px;
+    padding: 10px 0;
+    border-top: 2px solid #dcdcdc;
+    border-bottom: 2px solid #dcdcdc;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #696969;
 `;
 
 export const StatList = styled.ul`
